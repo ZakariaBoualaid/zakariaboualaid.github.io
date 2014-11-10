@@ -1,23 +1,26 @@
 ---
-layout: default
+layout: splash
 ---
 
-<div class="home">
+<div class="layout-about">
+  <div class="name-container">
+    <span id="firstname">Zakaria</span>
+    <span id="lastname">Boualaid</span>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+  <p>
+    Hello, my name is Zakaria Boualaid, I'm 21 years old, currently a Full-Stack Developer at Umbreo and would love to share many thoughts and ideas through my blog.
+  </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+  <ul>
+    <li><a href="/blog">My blog</a></li>
+    <li><a target="_blank" href="https://github.com/{{ site.github_username }}">Github</a></li>
+    <li><a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+    <li><a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">Facebook</a></li>
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <ul>
+    <li><a href="mailto:{{ site.email }}">Say Hello!</a></li>
+  </ul>
 
 </div>

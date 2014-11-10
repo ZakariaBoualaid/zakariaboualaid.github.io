@@ -1,11 +1,16 @@
 # Site settings
-title: Zakaria Boualaid's Blog
+title: Random Acts
 email: zakaria.boualaid@gmail.com
 description: "Hello, my name is Zakaria Boualaid, I'm 21 years old, currently a Full-Stack Developer at Umbreo and would love to share many thoughts and ideas through this blog."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zakariaboualaid.me" # the base hostname & protocol for your site
+fullname: Zakaria Boualaid
 twitter_username: zakariaboualaid
-github_username:  ZakariaBoualaid
+github_username: ZakariaBoualaid
+facebook_username: zakaria.boulaid
 
+assets:
+  sources:
+    - fonts
 # Build settings
 markdown: kramdown
