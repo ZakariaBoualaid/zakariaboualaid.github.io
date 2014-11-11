@@ -3,47 +3,57 @@
   <div class="width-50">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>Say Hello!</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-3">
+        <p class="text">{{ site.description }}</p>
         <ul class="social-media-list">
 
           <li>
-            <a href="https://github.com/{{ site.github_username }}">
+            <a href="mailto:{{ site.email }}"><span class="fa fa-envelope-o"></span></a>
+          </li>
+
+          <li>
+            <a target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss"></span></a>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://github.com/{{ site.github_username }}">
               <span class="fa fa-github">
               </span>
             </a>
           </li>
 
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
+            <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
               <span class="fa fa-twitter">
               </span>
             </a>
           </li>
 
           <li>
-            <a href="https://twitter.com/{{ site.facebook_username }}">
+            <a target="_blank" href="https://facebook.com/{{ site.facebook_username }}">
               <span class="fa fa-facebook">
               </span>
             </a>
           </li>
 
-          <li>
-            <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss"></span></a>
-          </li>
 
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p class="text">{{ site.description }}</p>
+      <div class="footer-col footer-col-2">
+
       </div>
+
+      <div class="footer-col footer-col-4">
+        <ul class="tag-list">
+          <h4>Tags</h4>
+          {% for tag in site.tags %}
+            <li><a class="tag" href="/posts/{{ tag.first }}">{{ tag.first }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
     </div>
 
   </div>

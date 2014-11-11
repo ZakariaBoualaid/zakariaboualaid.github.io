@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /posts/:tag
+---
+
+<div class="home">
+
+  <ul class="post-list">
+      <li class="post-item">
+      {% for post in site.posts %}
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-desc">
+          {{ post.excerpt | remove: '<p>' | remove: '</p>'}}<a href="{{ post.url | prepend: site.baseurl }}">More...</a>
+        </p>
+        <div style="text-align:right;">
+          
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></p>
+
+</div>

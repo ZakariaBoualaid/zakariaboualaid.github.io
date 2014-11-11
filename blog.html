@@ -14,15 +14,23 @@ permalink: /blog/
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p class="post-desc">
-          {{ post.excerpt }}
+          {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
         </p>
-        <div style="text-align:right;">
-          <a href="{{ post.url | prepend: site.baseurl }}">Read...</a>
+        <ul class="tag-list blog" style="float:left;"> 
+          {% for tag in post.tags %}
+            <li><a class="tag" href="/posts/{{ tag.first }}">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>
+        <div class="read-block" style="float:right;">
+          <a style="display:none;" href="{{ post.url | prepend: site.baseurl }}">Read</a>
         </div>
       </li>
+      <br>
+      <br>
+      <div style="clear:both; border-bottom:0px solid #ccc;"></div>
+      <br>
+      <br><br>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></p>
 
 </div>

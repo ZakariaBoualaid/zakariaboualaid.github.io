@@ -2,8 +2,35 @@ body{
 
 }
 
+#background{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	//background: url(/images/mebw-crop.jpg) no-repeat;
+}
+
+.page_background{
+	background-color: transparent;
+}
+
 .width-50{
 	width:50%;
+	margin:0 auto;
+}
+
+.width-60{
+	width:60%;
+	margin:0 auto;
+}
+
+.width-40{
+	width:40%;
+	margin:0 auto;
+}
+
+.width-30{
+	width:30%;
 	margin:0 auto;
 }
 
@@ -11,7 +38,7 @@ body{
 	position: absolute;
 	width: 520px;
 	right: 80px;
-	top:150px;
+	top:180px;
 	.name-container{
 		#lastname, #firstname{
 			line-height: 100%;
