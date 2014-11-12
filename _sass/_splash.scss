@@ -22,16 +22,23 @@ body{
 	margin:0 auto;
 }
 
+#background{
+	height: 100%;
+	width:100%;
+	position: fixed;
+	background: url(/images/zak2.jpg) no-repeat;	
+	left:48%;
+	top:11%;
+}
+
 .layout-about{
 	position: fixed;
-	width: 850px;
+	width: 50%;
 	height:50%;
-	top:25%;
-	right:25%;
+	top:12.5%;
+	left:25%;
 	font-family: 'Noto';
 	cursor:default;
-	background: url(/images/zak2.jpg) no-repeat;
-	background-position: 100% 0%;
 	.name-container{
 		#lastname, #firstname{
 			line-height: 100%;
