@@ -23,7 +23,18 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
+    ::-webkit-scrollbar {  
+        width: 12px;  
+    }  
+    ::-webkit-scrollbar-track {  
+        background-color: #fff;  
+    }  
+    ::-webkit-scrollbar-thumb {  
+        background-color: #000;  
+    }  
+    ::-webkit-scrollbar-thumb:hover {  
+        background-color: #aaa;  
+    } 
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -90,18 +101,9 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     text-decoration: none;
-    color: #b1b1b1;
+    color: #ccc;
     -webkit-transition: all .3s;
     transition: all .3s;
-
-    &:visited {
-        color: darken(#b1b1b1, 0%);
-    }
-
-    &:hover {
-        color: #333;
-        text-decoration: none;
-    }
 }
 
 

@@ -225,6 +225,15 @@
     }
 }
 
+.post-item{
+    max-width: 600px;
+    margin: 6rem auto;
+    .post-excerpt{
+        font-family: 'Noto', serif;
+        font-size: 1.2em;
+    }
+}
+
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
@@ -232,9 +241,10 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
-    color:#b1b1b1;
+    font-size: 4rem;
+    color:#222;
     padding: 2px 0px;
+    font-family: 'Open Sans Bold', sans-serif;
     &:hover{
         color:#000;
         text-decoration: none;
