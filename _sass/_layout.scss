@@ -226,7 +226,7 @@
 }
 
 .post-item{
-    max-width: 600px;
+    //max-width: 600px;
     margin: 6rem auto;
     .post-excerpt{
         font-family: 'Noto', serif;
@@ -252,10 +252,16 @@
 }
 
 
-
 /**
  * Posts
  */
+.post {
+    article{
+        font-family: 'Noto';
+        font-size: 1.3em;
+    }
+ }
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -264,6 +270,8 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    font-family: 'Open Sans Bold', sans-serif;
+    color: #000;
 
     @include media-query($on-laptop) {
         font-size: 36px;
