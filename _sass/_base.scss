@@ -104,6 +104,9 @@ a {
     color: #ccc;
     -webkit-transition: color .3s;
     transition: color .3s;
+    a:focus{
+        color:#000;
+    }
 }
 
 
