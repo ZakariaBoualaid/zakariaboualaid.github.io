@@ -50,7 +50,7 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
+        //position: absolute;
         top: 9px;
         right: 30px;
         background-color: $background-color;
@@ -58,24 +58,24 @@
         border-radius: 5px;
         text-align: right;
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
+        // .menu-icon {
+        //     display: block;
+        //     float: right;
+        //     width: 36px;
+        //     height: 26px;
+        //     line-height: 0;
+        //     padding-top: 10px;
+        //     text-align: center;
 
-            > svg {
-                width: 18px;
-                height: 15px;
+        //     > svg {
+        //         width: 18px;
+        //         height: 15px;
 
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
+        //         path {
+        //             fill: $grey-color-dark;
+        //         }
+        //     }
+        // }
 
         .trigger {
             clear: both;
@@ -94,6 +94,16 @@
     }
 }
 
+@include media-query($on-palm) {
+    .width-50{
+        width:100% !important;
+        text-align: right;
+        padding-right: 15px;
+    }
+    body{
+        min-width: 320px;
+    }
+}
 
 
 /**

@@ -29,6 +29,14 @@ body{
 	background: url(/images/zak2.jpg) no-repeat;	
 	left:48%;
 	top:14%;
+	@include media-query($on-palm) {
+		left:20%;
+		top:50%;
+	}
+	@include media-query($on-laptop) {
+		left:20%;
+		top:50%;
+	}
 }
 
 .layout-about{
@@ -40,10 +48,12 @@ body{
 	font-family: 'Noto';
 	cursor:default;
 	font-size: 1vw;
+	.layout-about-inner{
+		max-width:50%;
+	}
 	.name-container{
 		#lastname, #firstname{
 			line-height: 100%;
-			font-size: 83px;	
 			font-size: 5vw;
 			font-family: 'swiss-7';
 			font-family: 'Open Sans Bold';
@@ -65,6 +75,78 @@ body{
 				&:hover{
 					color:white;
 					text-shadow: 0px 0px 0px white;
+				}
+			}
+		}
+	}
+	
+	@include media-query($on-palm) {
+		font-size: 15px;
+		width: 100%;
+		font-family: 'Open Sans';
+		left:10%;
+		.layout-about-inner{
+			max-width:80%;
+		}
+		.name-container{
+			#lastname, #firstname{
+				line-height: 100%;
+				font-size: 9vw;
+				font-family: 'swiss-7';
+				font-family: 'Open Sans Bold';
+				font-family: 'Noto';
+				padding-right:10px;
+			}
+		}
+		ul{
+			list-style: none;
+			margin: 0 0 0 0;
+			li{
+				display: inline-block;
+				padding-right: 10px;
+				a{
+					color:#bbb;
+					font-size: 12px;
+					&:hover{
+						color:white;
+						text-shadow: 0px 0px 0px white;
+					}
+				}
+			}
+		}
+	}
+
+	@include media-query($on-laptop) {
+		font-size: 15px;
+		width: 100%;
+		font-family: 'Open Sans';
+		left:10%;
+		.layout-about-inner{
+			max-width:80%;
+		}
+		.name-container{
+			#lastname, #firstname{
+				line-height: 100%;
+				font-size: 9vw;
+				font-family: 'swiss-7';
+				font-family: 'Open Sans Bold';
+				font-family: 'Noto';
+				padding-right:10px;
+			}
+		}
+		ul{
+			list-style: none;
+			margin: 0 0 0 0;
+			li{
+				display: inline-block;
+				padding-right: 10px;
+				a{
+					color:#bbb;
+					font-size: 12px;
+					&:hover{
+						color:white;
+						text-shadow: 0px 0px 0px white;
+					}
 				}
 			}
 		}
