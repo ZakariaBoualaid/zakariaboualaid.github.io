@@ -28,21 +28,23 @@ body{
 	position: fixed;
 	background: url(/images/zak2.jpg) no-repeat;	
 	left:48%;
-	top:11%;
+	top:14%;
 }
 
 .layout-about{
 	position: fixed;
 	width: 50%;
 	height:50%;
-	top:12.5%;
-	left:25%;
+	top:17%;
+	left:28%;
 	font-family: 'Noto';
 	cursor:default;
+	font-size: 1vw;
 	.name-container{
 		#lastname, #firstname{
 			line-height: 100%;
 			font-size: 83px;	
+			font-size: 5vw;
 			font-family: 'swiss-7';
 			font-family: 'Open Sans Bold';
 			font-family: 'Noto Bold';
@@ -59,7 +61,7 @@ body{
 			padding-right: 10px;
 			a{
 				color:#bbb;
-				font-size: 20px;
+				font-size: 1vw;
 				&:hover{
 					color:white;
 					text-shadow: 0px 0px 0px white;
