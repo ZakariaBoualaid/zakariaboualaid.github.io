@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "Ruby on Rails !!"
+title:  "Classes & Methods in Ruby"
 date:   2014-11-11 12:50:17
-categories: web development
-tags: rails
+categories: programming
+tags: ruby poo
+author: Zakaria Boualaid
 ---
 
-My next post.
+In this video, we will dig into classes and methods in Ruby.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia natus explicabo quia consequuntur iure alias eveniet, ipsam ea dicta repudiandae quidem itaque non laudantium officiis cumque quam illum atque vel.
+<br>
+
+<iframe class="yvideos" src="http://www.youtube.com/embed/7FV5C2To6nQ" frameborder="0" allowfullscreen></iframe>
