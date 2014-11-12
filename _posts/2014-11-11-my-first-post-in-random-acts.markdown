@@ -3,6 +3,7 @@ layout: post
 title:  "My next post !!"
 date:   2014-11-11 12:50:17
 categories: welcome
+tags: welcome
 ---
 
 My next post.
