@@ -36,6 +36,10 @@ body{
 }
 
 .layout-about{
+	&, & *{
+		-webkit-transition: all .3s;
+    	transition: all .3s;
+	}
 	position: fixed;
 	width: 50%;
 	height:50%;
