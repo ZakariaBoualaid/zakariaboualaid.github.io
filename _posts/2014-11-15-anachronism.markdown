@@ -14,7 +14,7 @@ My love to the past is sturdy than how it is to the present. It has many enlight
 
 Today, we think that with our technology we are reinventing life. But this is not the case. Although the few tools that we have today are useful, but they are minor details regarding to life and deep understanding. The essence of life remains unchanged, we still lone souls degraded by invisible powers coming across the what we read and see everyday.
 
-Tomorrow, what I’m learning today from the media and internet is redundant. People are publishing information which each seems to blend together into a meaningless jargon. Their principle reason is to make headlines and build traffic, but most of them ignore that amid those there is no enduring value.
+Tomorrow, what I’m learning today from the media and internet will be redundant. People are publishing information which each seems to blend together into a meaningless jargon. Their principle reason is to make headlines and build traffic, but most of them ignore that amid those there is no enduring value.
 
 The past will not help you to forecast weather as today, and will not help you to code a website either, but it will teach you what it means to be a human, and how to live. Our most reliable asset is the wisdom of the greatest human minds passed through centuries.
 
