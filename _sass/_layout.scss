@@ -99,6 +99,11 @@
     height:600px;
 }
 
+.container{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
 @include media-query($on-laptop) {
     .width-50{
         width:100% !important;
@@ -114,6 +119,10 @@
     .black-question{
         left:56px;
         border-left:1px solid rgba(255,255,255,0.2);
+    }
+    #disqus_thread, hr{
+        width: auto !important;
+        min-width: 350px !important;
     }
 }
 
