@@ -4,8 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+First of all, I'm hugely thankful for your presence here.
+This blog is made by me. Its design it's very close to <a href="https://medium.com/" target="_blank">Medium</a>, I was inspired by this fantastic website. I wanted that my stories look similar with some light touches on the top.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Why I wanted to do it at my own? Because <a href="https://medium.com/" target="_blank">Medium</a> is limited once I'd like to write some very customized posts which require more options.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+What I'm doing here is sharing my ideas and thoughts, it helps me to get better, so I'll do it.
+
+You can see also these posts by visiting my page at <a href="https://medium.com/" target="_blank">Medium</a>
+
+<a href="https://medium.com/@zakariaboualaid" target="_blank">https://medium.com/@zakariaboualaid</a>
+
+And by the way you will get to know this website. If you feel inspired, try to start sharing your thoughts too, I would like to read!
+
+Cheers!

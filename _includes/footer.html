@@ -5,12 +5,12 @@
 
   <div class="width-50">
 
-  <div class="col-md-12">
     
     <div class="row">
 
-      <div class="col-md-5" style="padding-bottom:10px;">
-        <p class="text" style="text-align:justify;">{{ site.description }}</p>
+      <div class="col-md-6 col-sm-10" style="padding-bottom:10px;">
+        <p class="text" style="text-align:left; word-spacing:2px; font-family:'Noto';">{{ site.description }}</p>
+        <br>
         <ul class="social-media-list">
 
           <li>
@@ -42,6 +42,13 @@
             </a>
           </li>
 
+          <li>
+            <a target="_blank" href="https://medium.com/{{ site.medium_username }}">
+              <span class="fa fa-medium">
+              </span>
+            </a>
+          </li>
+
 
         </ul>
       </div>
@@ -49,7 +56,7 @@
 
       </div>
 
-      <div class="col-md-4">
+      <div style="display:none;" class="col-md-4">
         <ul class="tag-list" style="text-align:left;">
           <h5 style="margin-top:0px;">Tags</h5>
           {% for tag in site.tags %}
@@ -58,11 +65,18 @@
         </ul>
       </div>
 
-  </div>
-    </div>
+      <div class="col-md-4" style="display:none;">
+        <ul class="tag-list" style="text-align:left;">
+          <h5 style="margin-top:0px;">Links</h5>
+            <li><a class="s" href="/">Splash</a></li>
+            <li><a class="s" href="/blog/">Blog</a></li>
+        </ul>
+      </div>
 
   </div>
 
-  <span style="position:absolute; right:5px; bottom:4px; font-family:'Open Sans'; color:#ccc; font-size:11px; opacity:.3;">Brought to you by the guy on the top-left of the screen - Zakaria Boualaid.</span>
+  </div>
+
+  <span style="position:absolute; right:5px; bottom:4px; font-family:'Open Sans'; color:#ccc; font-size:11px; opacity:.3; display:none;">Brought to you by the guy on the top-left of the screen.</span>
 
 </footer>

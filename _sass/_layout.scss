@@ -158,6 +158,9 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    @include media-query($on-laptop) {
+        padding: 10px 10px;
+    }
 }
 
 .footer-heading {
@@ -263,11 +266,11 @@
 .post-link {
     display: block;
     font-size: 4rem;
-    color:#222;
+    color:rgba(0,0,0,0.8);
     padding: 2px 0px;
     font-family: 'Open Sans Bold', sans-serif;
     &:hover{
-        color:#000;
+        color:rgba(0,0,0,0.8);
         text-decoration: none;
     }
 }
@@ -277,22 +280,66 @@
  * Posts
  */
 .post {
+
+    @include media-query($on-laptop) {
+        width: auto;
+        min-width: 350px;
+    }
+
+    width:700px;
+    word-wrap:break-word;
+    word-spacing: 3px;
+    &, & * {
+        color: rgba(0,0,0,0.8)
+    }
     article{
-        font-family: 'Noto';
-        font-size: 1.3em;
+        line-height: 1.5;
+        letter-spacing: 0.01rem;
+        font-family: 'freight';
+        font-size: 20px;
+        font-weight: 400;
+        p{
+            padding:0;
+            padding: 10px 0px !important;
+        }
+    }
+
+    code{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    blockquote.phil{
+        border-left: 2px solid rgba(0,0,0,0.8);
+        padding-left:10px;
+        margin-left:-12px;
+        margin-bottom: 20px;
+        letter-spacing: 0px;
+        text-decoration: none;
+        font-family: 'freight';
+        font-style:normal;
+        padding: 0px 0px 0px 12px;
+    }
+
+    .quote{
+        color:rgba(0,0,0,0.7);
+        background-color: transparent;
+        border: none;
+        border-radius: 0px;
+        font-family: 'freight';
+        font-size:20px;
     }
  }
-
 .post-header {
     margin-bottom: $spacing-unit;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    font-size: 60px;
+    letter-spacing: -4px;
     line-height: 1;
     font-family: 'Open Sans Bold', sans-serif;
-    color: #000;
+    color: rgba(0,0,0,0.8);
 
     @include media-query($on-laptop) {
         font-size: 36px;
