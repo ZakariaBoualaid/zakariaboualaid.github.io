@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anachronism."
-date:   2014-11-16 12:50:17
+date:   2014-11-11 12:50:17
 categories: philosophy
 tags: century old science art thought albert einstein
 ---
