@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 First of all, I'm hugely thankful for your presence here.
-This blog is made by me. Its design it's very close to <a href="https://medium.com/" target="_blank">Medium</a>, I was inspired by this fantastic website. I wanted that my stories look similar with some light touches on the top.
+This blog is made by me. Its design is very close to <a href="https://medium.com/" target="_blank">Medium</a>, I was inspired by this fantastic application. I wanted that my stories look similar with some light touches on the top.
 
 Why I wanted to do it at my own? Because <a href="https://medium.com/" target="_blank">Medium</a> is limited once I'd like to write some very customized posts which require more options.
 
