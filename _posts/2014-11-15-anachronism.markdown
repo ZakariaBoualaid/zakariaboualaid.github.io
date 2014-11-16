@@ -7,7 +7,7 @@ tags: century old science art thought albert einstein
 ---
 
 <blockquote class="phil">
-<code class="quote">It’s the 15th century, in the middle of a spring night. In a calm room with the candles shining their lights all over the place, I’m sitting in an archaic chair. The wooden floors below my chair reflects some of the merry lights. I’m listening to the sound of my pen on the paper writing, murmuring above.</code>
+<code class="quote">It’s the 15th century, in the middle of a spring night. In a calm room with the candles shining their lights all over the place, I’m sitting in an archaic chair, in front of my table, pen and paper. The wooden floors below my chair reflects some of the light’s colour. I’m listening to the sound of my pen on the paper writing, murmuring above.</code>
 </blockquote>
 
 My love to the past is sturdy than how it is to the present. It has many enlightened people who understood what really life is and channelled the world into a tremendous progress in art and science.
@@ -16,7 +16,7 @@ Today, we think that with our technology we are reinventing life. But this is no
 
 Tomorrow, what I’m learning today from the media and internet is redundant. People are publishing information which each seems to blend together into a meaningless jargon. Their principle reason is to make headlines and build traffic, but most of them ignore that amid those there is no enduring value.
 
-The past will not help you to forecast weather as today, and will not help you to code a website either, but it will teach you what it means to be human, and how to live. Our most reliable asset is the wisdom of the greatest human minds passed through centuries.
+The past will not help you to forecast weather as today, and will not help you to code a website either, but it will teach you what it means to be a human, and how to live. Our most reliable asset is the wisdom of the greatest human minds passed through centuries.
 
 I was always awestruck by the following quote of one of the greatest minds, Albert Einstein.
 
