@@ -2,14 +2,6 @@
     font-size: 14px;
 }
 
-.pluginCountButton {
-    color: red;
-    font-size: 11px;
-    line-height: 18px;
-    text-align: center;
-    white-space: nowrap;
-}
-
 /**
  * Site header
  */
@@ -329,14 +321,13 @@
 
     blockquote.phil{
         border-left: 2px solid rgba(0,0,0,0.8);
-        padding-left:10px;
         margin-left:-12px;
         margin-bottom: 20px;
         letter-spacing: 0px;
         text-decoration: none;
         font-family: 'freight';
         font-style:normal;
-        padding: 0px 0px 0px 12px;
+        padding: 8px 0px 8px 12px;
         background-color: rgba(0,0,0,0.04);
     }
 
