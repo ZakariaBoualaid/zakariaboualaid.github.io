@@ -3,7 +3,7 @@
 }
 
 .col-md-offset-2{
-    margin-left:20.6667% !important;
+    margin-left:20.6667%;
 }
 
 /**
@@ -133,6 +133,12 @@
         span{
             position: relative !important;
         }
+    }
+}
+
+@include media-query(1200px) {
+    .col-md-offset-2{
+        margin-left:0;
     }
 }
 
@@ -315,7 +321,7 @@
         width: auto;
         min-width: 350px;
     }
-
+    margin: 0 auto;
     width:700px;
     word-wrap:break-word;
     word-spacing: 3px;
